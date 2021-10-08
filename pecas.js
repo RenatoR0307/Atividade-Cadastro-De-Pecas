@@ -17,10 +17,23 @@ if (listaPecas.length < 5 ) {
     console.log("Espaco maximo atingido")
 
 }
-    listaPecas.push("oleo diesel")
+    listaPecas.push("Carter")
 
     console.log(listaPecas)
+
+let nomePeca = "Fio"
+if (nomePeca.length > 3) 
+{
+    console.log("Nome da peca e valido pode seguir com cadastro!")
+    
+} else 
+{
+    console.log("Nome da peca menor que o permitido ")  
+}
     
 
-
+for (let i = 0; i < listaPecas.length; i++) {
+    const listaAtual = listaPecas[i];
+    console.log("Pecas: " + listaAtual)
+}
  
